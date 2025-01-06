@@ -5,8 +5,11 @@
 #include <iostream>
 
 int main(){
-    std::cout << "Hi There!" << std::endl;
-
+    std::string name;
+    std::cout << "Enter your name:" << std::endl;
+    std::cin>>name;
+    std::cout << "Nice to meet you "<<name<<"!"<<std::endl;
+    
     std::cout << std::endl << std::endl;
     return 0;
 }
